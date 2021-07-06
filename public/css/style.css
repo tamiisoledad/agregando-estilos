@@ -3,25 +3,70 @@
 
 header{
     background-color: #EAC926;
+    font-size: 12px;
 
 }
+header nav a.search{
+    display: inline-block;
+    background-color: #ebebeb;
+    padding: 3px;
+    border-radius: 15%;
+    border-style: groove;
+    border-color: rgba(0, 0, 0, 0.5);
+}
+header nav p.buy{
+    display: inline-block;
+    text-align: center;
+}
 header nav ul li{
+    display: block;
     list-style: none;
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
 }
 header nav ul li a{
     text-decoration: none;
     color:black;
+    text-align: left;
     margin: 0px;
+    padding: 0px;
 }
 header .burger-menu {
     display: inline-block;
-    background-color: #03264C;
+    background-color: #1259c3;
     padding: 10px;
+    text-align: center;
+    margin-left: 45%;
+    border-radius: 15%;
+    font-size: 15px;
 }
 header .burger-menu i{
     color: white;
 }
-
+main section h3{
+    font-size: 24px;
+}
+main section p{
+    font-size: 18px;
+}
+main section p.desc{
+    font-size: 16px;
+}
+main section h4{
+    font-size: 16px;
+}
+footer{
+    text-align: center;
+}
+footer section article i{
+    font-size: 2em;
+    color: #1259c3;
+}
+footer section article p.final{
+    font-size: 12px;
+    text-align: left;
+}
 
 #producto{
     width: 80%;
