@@ -1,0 +1,33 @@
+main.registro{
+    margin: 10px;
+    width: 100%;
+}
+
+main.registro form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main.registro h1{
+    margin: 10px;
+}
+main.registro form input{
+    margin: 10px;
+    height: 25px;
+}
+main.registro form h4.register{
+    margin-bottom: 10px;
+}
+main.registro form div.botones{
+    margin-top: 15px;
+}
+main.registro form h5{
+    margin: 10px;
+    font-size: 15px;
+}
+main.registro form div.botones button{
+    background-color: blue;
+    border-radius: 20%;
+    color: white;
+    padding: 8px;
+}
