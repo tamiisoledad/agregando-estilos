@@ -5,6 +5,23 @@
     padding: 0px;
     box-sizing: border-box;
 }
+main section article a:hover i{
+    transform: rotateZ(260deg);
+    
+    
+}
+main section article{
+    box-shadow: none
+}
+main section article:hover{
+   box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+main section h4.dp{
+    display: none;
+}
+main section article:hover h4.dp{
+    display: block;
+}
 body{
     background-color: #ebebeb;
     margin: 0;
@@ -294,7 +311,10 @@ footer section article p.final{
         text-align: left;
     }
     main section article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        box-shadow: none
+    }
+    main section article:hover{
+       box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     main section article.seg{
         display: flex;
@@ -331,4 +351,15 @@ footer section article p.final{
     position: initial;
     right: 60px;
     }
+    main section h4.dp{
+        display: none;
+    }
+    main section article:hover h4.dp{
+        display: block;
+    }
+    
+}
+footer section{
+    display: flex;
+    flex-direction: row;
 }

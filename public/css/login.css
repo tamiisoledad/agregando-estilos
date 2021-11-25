@@ -19,3 +19,6 @@ main.login form div.log button{
     margin-bottom: 20px;
     border-radius: 15%;
 }
+main.login form div.log button:hover{
+    background-color: #0022AA;
+}
